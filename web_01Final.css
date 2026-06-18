@@ -1,4 +1,3 @@
-/* Reset & Configurações Globais */
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +20,6 @@ body {
     gap: 20px;
 }
 
-/* Banner Superior */
 .main-header {
     background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9)), 
                 url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000') no-repeat center/cover;
@@ -45,7 +43,6 @@ body {
     font-size: 15px;
 }
 
-/* Cards Estilizados */
 .card {
     background-color: #1e293b;
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -54,7 +51,6 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Grid de Métricas */
 .metrics-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -89,7 +85,6 @@ body {
 #produto-caro { color: #f87171; }
 #produto-barato { color: #4ade80; }
 
-/* Layout da Área Principal */
 .content-layout {
     display: grid;
     grid-template-columns: 1fr;
@@ -102,7 +97,6 @@ body {
     }
 }
 
-/* Formulário */
 .form-section h2, .table-section h2 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -154,7 +148,6 @@ body {
     background-color: #7dd3fc;
 }
 
-/* Tabela */
 .table-wrapper {
     overflow-x: auto;
 }
